@@ -5,6 +5,9 @@
 ## 🔗 公開サイト
 https://sleepycat12341013.github.io/aurelia-lp/
 
+<img src="docs/preview-mobile.png" alt="AURÉLIA モバイル表示プレビュー" width="320">
+
+
 ## 特徴
 - 素の HTML / CSS / Vanilla JS（フレームワーク不使用）
 - **デスクトップ・モバイル両対応**（レスポンシブ設計。スマホはハンバーガーメニュー＋ヒーロー画像をモバイル専用に最適化）
