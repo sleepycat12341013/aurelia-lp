@@ -5,11 +5,13 @@
 ## 🔗 公開サイト
 https://sleepycat12341013.github.io/aurelia-lp/
 
-<p>
-  <img src="docs/preview-mobile.png" alt="AURÉLIA モバイル表示" height="340">
-  &nbsp;
-  <img src="docs/preview-desktop.png" alt="AURÉLIA デスクトップ表示" height="340">
-</p>
+**モバイル版：**
+
+<img src="docs/preview-mobile.png" alt="AURÉLIA モバイル表示" width="300">
+
+**デスクトップ版：**
+
+<img src="docs/preview-desktop.png" alt="AURÉLIA デスクトップ表示" width="720">
 
 
 ## 特徴
