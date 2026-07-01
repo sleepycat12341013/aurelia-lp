@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>お問い合わせ｜AURÉLIA</title>
+  <meta name="description" content="AURÉLIA へのお問い合わせはこちらから。" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">AURÉLIA</a>
+      <button class="nav-toggle" aria-label="メニュー" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">PRODUCT</a></li>
+        <li><a href="problem.html">BENEFITS</a></li>
+        <li><a href="story.html">STORY</a></li>
+        <li><a href="howto.html">HOW TO</a></li>
+        <li><a href="quality.html">QUALITY</a></li>
+        <li><a class="nav-cta" href="pricing.html">BUY NOW</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">CONTACT</p>
+      <h1>お問い合わせ</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="lead reveal" style="text-align:center;margin-bottom:36px;">商品・ご注文・定期コースに関するご質問など、お気軽にお問い合わせください。<br />通常2〜3営業日以内にご返信いたします。</p>
+
+      <form class="form reveal" onsubmit="alert('送信ありがとうございます（デモ）');return false;">
+        <div>
+          <label for="name">お名前 <span style="color:var(--red);">*</span></label>
+          <input id="name" name="name" type="text" required placeholder="山田 花子" />
+        </div>
+        <div>
+          <label for="email">メールアドレス <span style="color:var(--red);">*</span></label>
+          <input id="email" name="email" type="email" required placeholder="example@mail.com" />
+        </div>
+        <div>
+          <label for="subject">お問い合わせ種別</label>
+          <select id="subject" name="subject">
+            <option>商品について</option>
+            <option>ご注文・お届けについて</option>
+            <option>定期コース・解約について</option>
+            <option>返金保証について</option>
+            <option>その他</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">お問い合わせ内容 <span style="color:var(--red);">*</span></label>
+          <textarea id="message" name="message" required placeholder="お問い合わせ内容をご記入ください"></textarea>
+        </div>
+        <button type="submit" class="btn btn--gold submit">送信する <span class="arrow">›</span></button>
+        <p class="form-note">送信をもって<a href="privacy.html" style="color:var(--gold-deep);">プライバシーポリシー</a>に同意したものとみなします。<br>※本フォームはデモ用です。実際の送信は行われません。</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand"><a href="index.html">AURÉLIA</a></div>
+        <nav class="footer-nav">
+          <a href="index.html">PRODUCT</a><a href="problem.html">BENEFITS</a><a href="story.html">STORY</a>
+          <a href="howto.html">HOW TO</a><a href="quality.html">QUALITY</a><a href="pricing.html">BUY</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <a href="company.html">COMPANY</a> ｜ <a href="privacy.html">PRIVACY</a> ｜ <a href="contact.html">CONTACT</a>
+        </div>
+        © 2025 AURÉLIA. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

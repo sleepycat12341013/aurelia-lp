@@ -1,0 +1,39 @@
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+*.tmp
+__*.html
+
+# Source material & unused generated images (kept locally, not published)
+編集前画像素材/
+assets/img/*
+# --- re-include only the images actually used by the site ---
+!assets/img/after.jpg
+!assets/img/before.jpg
+!assets/img/botanical.jpg
+!assets/img/bottle-box.jpg
+!assets/img/developer.jpg
+!assets/img/dose.jpg
+!assets/img/factory.jpg
+!assets/img/hero-1.jpg
+!assets/img/hero-1m.jpg
+!assets/img/hero-2.jpg
+!assets/img/hero-2m.jpg
+!assets/img/hero-3.jpg
+!assets/img/hero-3m.jpg
+!assets/img/ingredient-1.jpg
+!assets/img/ingredient-2.jpg
+!assets/img/ingredient-3.jpg
+!assets/img/problem-hero.jpg
+!assets/img/problem-hero-m.jpg
+!assets/img/researcher.jpg
+!assets/img/review-1.jpg
+!assets/img/review-2.jpg
+!assets/img/review-3.jpg
+!assets/img/step-1.jpg
+!assets/img/step-2.jpg
+!assets/img/step-3.jpg
+!assets/img/step-4.jpg
+!assets/img/texture-1.jpg
+!assets/img/texture-2.jpg
+!assets/img/tips.jpg
